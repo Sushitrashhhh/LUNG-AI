@@ -75,7 +75,7 @@ This will provide a local URL to open in your browser.
 *   The architecture.py script is set up to find these specific folders.
     
 ### Demo
-    ![demo](image.png)    
+    ![LUNG-AI Demo](assets/image.png) 
 
 ### Contributing
 
