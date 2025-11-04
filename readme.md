@@ -72,7 +72,11 @@ This will provide a local URL to open in your browser.
 *   The preprocess.py script automatically creates the Processed\_Data directory with train, validation, and test subdirectories.
     
 *   The architecture.py script is set up to find these specific folders.
-    
+
+
+### Demo
+    <img width="963" height="385" alt="image" src="https://github.com/user-attachments/assets/e54ac3f7-cb7d-44c9-9d30-6537c5bfb328" />
+
 
 ### Contributing
 
