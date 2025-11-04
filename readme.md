@@ -75,8 +75,7 @@ This will provide a local URL to open in your browser.
 
 
 ### Demo
-    <img width="963" height="385" alt="image" src="https://github.com/user-attachments/assets/e54ac3f7-cb7d-44c9-9d30-6537c5bfb328" />
-
+    <img width="963" height="385" alt="image" src="https://github.com/user-attachments/assets/a05775c7-da23-4c36-8ac1-e31d2f67f9b7" />
 
 ### Contributing
 
