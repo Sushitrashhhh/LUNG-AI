@@ -2,7 +2,7 @@ import os
 import shutil
 from datasets import load_dataset
 from tqdm import tqdm # You may need to run: pip install tqdm
-from PIL import Image # You may need to run: pip install Pillow
+from PIL import Image # You may need to run: pip install Pillow 
 
 # THIS IS THE FIX: Map the 7+ dataset classes to the 4 project classes
 def get_project_class(dataset_class_name):

@@ -4,7 +4,7 @@ from torchvision import transforms
 from architecture import ResNetLungCancer 
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
+ 
 model = ResNetLungCancer(num_classes=4)
 try:
     state = torch.load('Model/lung_cancer_detection_model.pth', map_location=device, weights_only=True)
