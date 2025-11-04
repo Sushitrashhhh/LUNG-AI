@@ -1,5 +1,5 @@
 import torch
-from PIL import Image
+from PIL import Image 
 from torchvision import transforms
 from architecture import ResNetLungCancer
 import gradio as gr
