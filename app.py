@@ -35,8 +35,8 @@ iface = gr.Interface(
     inputs=gr.Image(),
     outputs=gr.Label(num_top_classes=1),
     examples=[
-        ["Data/test/large.cell.carcinoma/000108.png"],
-        ["Data/test/normal/7 - Copy (3).png"]
+        ["Processed_Data/test/Large_cell_carcinoma/test_Large_cell_carcinoma_108.jpg"],
+        ["Processed_Data/test/Normal/test_normal_179.jpg"]
     ]
 )
 
