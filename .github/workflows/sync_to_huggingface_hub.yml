@@ -18,5 +18,6 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           
         run: |
-          git remote add hf https://abcdefghipri:${HF_TOKEN}@huggingface.co/spaces/abcdefghipri/$LUNG-AI || true
+          git remote add hf https://abcdefghipri:${HF_TOKEN}@huggingface.co/spaces/abcdefghipri/LUNG-AI || true
+          
           git push --force hf main
