@@ -1,3 +1,14 @@
+---
+title: LUNG AI
+emoji: 🫁
+colorFrom: green
+colorTo: gray
+sdk: gradio
+sdk_version: 6.5.1
+app_file: app.py
+pinned: false
+---
+
 ### Project Overview
 
 LungAI is a deep learning project aimed at detecting and classifying lung cancer from CT scan images. This model uses a **ResNet50** architecture with transfer learning to differentiate between cancerous and non-cancerous lung tissue, as well as classify specific types of lung cancer.
