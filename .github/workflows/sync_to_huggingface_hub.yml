@@ -15,4 +15,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://abcdefghipri:$HF_TOKEN@huggingface.co/spaces/LUNG-AI main
+        run: git push --force https://abcdefghipri:$HF_TOKEN@huggingface.co/spaces/abcdefghipri/LUNG-AI main
