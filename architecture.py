@@ -172,15 +172,14 @@ if __name__ == "__main__":
     model = model.to(device)
 
     criterion = nn.CrossEntropyLoss()
-    
+
     pretrained_params = list(model.resnet.parameters())
     new_params = list(model.fc.parameters())
-
     optimizer = optim.Adam([
         {'params': pretrained_params, 'lr': 1e-5},
         {'params': new_params, 'lr': 1e-4}
     ], weight_decay=1e-6)
-    
+
     scheduler = ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=7)
 
     # train the model
@@ -197,3 +196,4 @@ if __name__ == "__main__":
     torch.onnx.export(trained_model, dummy_input, "lung_cancer_detection_model.onnx", input_names=['input'], output_names=['output'])
 
     print("Training completed. Model saved.")
+
